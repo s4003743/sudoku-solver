@@ -1,6 +1,6 @@
 # SUDOKU SOLVER
 A recursive backtracking algorithm that solves sudoku. This was for a CS50x final project, the demo video may be slightly different to the current project but all functionality remains the same.
-#### Video Demo:  <[URL HERE](https://youtu.be/MEkQLvBz24E)>
+#### [Video Demo](https://youtu.be/MEkQLvBz24E)
 #### Description:
 
 # USAGE
