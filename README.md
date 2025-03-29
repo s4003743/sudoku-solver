@@ -2,6 +2,10 @@
 A recursive backtracking algorithm that solves sudoku. This was for a CS50x final project, the demo video may be slightly different to the current project but all functionality remains the same.
 #### Video Demo:  <[URL HERE](https://youtu.be/MEkQLvBz24E)>
 #### Description:
+
+# USAGE
+To run the website locally, type the following into the terminal: "python -m flask run". This program should now be running on port 5000. Note that this is for development use and not for official deployment.
+
 # OVERVIEW:
 As seen below, this program although relatively simple in nature does contain a deceptive amount of complexity and moving parts so to speak. In my spare time I regularly play games such as chess and the like on my mobile phone. One such game I enjoy playing despite my incompetencies at completing the more difficult challenges is sudoku. Most apps that I use to play sudoku don’t always contain a feature for the player to auto solve the original puzzle and thus see where they went wrong. Thus I sought to create a program that would aid my journey as a developing (although currently low-skilled) sudoku player. As an overview and summary of the program’s goal, it is to accept input from the user which will be a sudoku puzzle as provided by the many other websites that are similar to those that I would use. It would then use some kind of algorithm to solve the puzzle via brute force. This would only happen however, when the program has already checked that the provided puzzle’s starting layout was indeed legal by the standards and rules of traditional sudoku (that being each column, row and square must contain all the numbers 1 through 9 such that each is unique to its own row, column and square). Then the solution would be transmitted to the user via some kind of web application. If no solution can be found, report such findings to the user additionally.
 
